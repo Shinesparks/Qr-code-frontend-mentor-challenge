@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: cornflowerblue;
+} 
+ 
+img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(64,64,64);
+    text-align: justify;
+    gap: 2px;
+    font-size: 14px;
+}
+
+div{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+   
+}
+
+.card{
+    width: 15rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 50vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 1rem;
+}
